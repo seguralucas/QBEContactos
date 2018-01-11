@@ -3,17 +3,6 @@
   <groupId>biactiva</groupId>
   <artifactId>biactiva</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-  <plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <version>2.3.1</version>
-      <configuration>
-        <outputDirectory>H:/Users/GAS/Desktop/QBEContactos</outputDirectory>
-      </configuration>
-      </plugin></plugins>
-</build>
   <dependencies>
 <dependency>
     <groupId>com.jcraft</groupId>

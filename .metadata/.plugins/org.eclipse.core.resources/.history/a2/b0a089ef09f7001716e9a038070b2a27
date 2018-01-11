@@ -12,7 +12,18 @@
       <configuration>
         <outputDirectory>H:/Users/GAS/Desktop/QBEContactos</outputDirectory>
       </configuration>
-      </plugin></plugins>
+    </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>(whatever version is current)</version>
+        <configuration>
+          <!-- or whatever version you use -->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
 </build>
   <dependencies>
 <dependency>

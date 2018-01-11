@@ -32,5 +32,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="dependencias/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="dependencias/javacsv-2.0.jar"/>
+	<classpathentry kind="lib" path="dependencias/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="dependencias/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

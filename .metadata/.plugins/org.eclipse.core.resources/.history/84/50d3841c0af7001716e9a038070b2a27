@@ -12,7 +12,6 @@
       <configuration>
         <outputDirectory>H:/Users/GAS/Desktop/QBEContactos</outputDirectory>
       </configuration>
-      </plugin></plugins>
 </build>
   <dependencies>
 <dependency>
