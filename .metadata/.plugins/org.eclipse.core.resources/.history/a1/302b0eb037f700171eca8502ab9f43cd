@@ -1,0 +1,9 @@
+{ 
+    "emails":[{"address":"#EMAIL#", "addressType":{"id":0}},{"address":"#EMAIL_ALTERNATIVO#", "addressType":{"id":1}},{"address":"#EMAIL_LABORAL#", "addressType":{"id":2}],
+
+	    "name": {
+        "first": "#NOMBRE#",
+        "last": "#APELLIDO#"
+    }
+
+}

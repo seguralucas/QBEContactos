@@ -1,0 +1,13 @@
+pathInformacion=D\:/Exit/Crm.csv
+url=https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts
+user=usuario.importador
+password=Lucas123
+separadorCSV=;
+usaProxy=NO
+ipProxy=10.152.140.252
+puertoProxy=8080
+
+identificadorAtributo=#
+
+urlVerificarExistencia=http://qbe.custhelp.com/services/rest/connect/v1.3/queryResults/?query=select%20id%20from%20contacts%20where%20contacts.customFields.Qbe.idAIS%20=%20%CLIENTSEC%27
+nivelParalelismo=10

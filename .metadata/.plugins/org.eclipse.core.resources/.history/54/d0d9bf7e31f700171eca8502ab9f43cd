@@ -1,0 +1,6 @@
+{
+"FirstName":"#name.first#",
+"LastName": "#name.last#",
+"PersonDEO_NDocumento_c":"#customFields.CO.DNI#"
+}
+

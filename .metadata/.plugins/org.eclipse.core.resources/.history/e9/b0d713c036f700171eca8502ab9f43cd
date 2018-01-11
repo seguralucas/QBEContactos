@@ -1,0 +1,35 @@
+{ 
+    "emails":[{"address":"#_ Email#", "addressType":{"id":0}},{"address":"#SAP_ID ID#@no.contactar", "addressType":{"id":1}}],
+    "phones":{"number":"#_ Telefono#","phoneType":{"id":0}},
+"customFields": {
+        "CO": {
+            "AdicionalesEnUso": "#Adicionales_en_Uso#",
+            "BpSapId": "#SAP_ID ID#",
+            "BpWccId": "#_ WCC ID#",
+            "Calle": "#_ Calle#",
+            "EstadoCivil": "#_ Estado Civil#",
+            "EstadoSuscriptor": "#_ Estado#",
+            "FechaNacimiento":"#_ Fecha Nacimiento#",
+            "Latitud": "#_ Latitud#",
+            "Localidad": "#_ Localidad#",
+            "Longitud": "#_ Longitud#",
+            "Nacionalidad": "#_ Nacionalidad#",
+            "NroDocumento": "#_ Nro Documento#",
+            "Numero": "#_ Numero#",
+            "Partido": "#_ Partido#",
+            "Sexo": "#_ Sexo#",
+            "TipoDocumento": "#_ Tipo Doc#",
+            "TipoSocio": "#Socio_ Categoria#",
+            "Zona": "#_ Zona#"
+        },
+        "c":{
+            "tiposocio": "#Socio_ Categoria#",
+            "bpsapid": "#SAP_ID ID#"           
+        }
+    },
+	    "name": {
+        "first": "#_ Nombre#",
+        "last": "#_ Ape/Rzn Social#"
+    }
+
+}

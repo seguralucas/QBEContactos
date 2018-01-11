@@ -1,0 +1,3 @@
+metodo=POST
+codigoResponseEsperado=201
+cabecera= {"Content-Type":"application/vnd.oracle.adf.resourceitem+json"}

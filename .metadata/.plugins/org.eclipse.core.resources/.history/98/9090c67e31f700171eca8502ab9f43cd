@@ -1,0 +1,5 @@
+{
+"OrganizationName":"#name#",
+"OrganizationDEO_NDocumento_c":"#customFields.CO.CUIL_CUIT#",
+"PartyId":"#customFields.CO.CUIL_CUIT#"
+}

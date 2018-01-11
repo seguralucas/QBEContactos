@@ -1,0 +1,16 @@
+filtros=q=LastUpdateDate>#FECHA_DESDE#;LastUpdateDate<#FECHA_HASTA#;OrganizationDEO_NDocumento_c<>-1&offset=#OFFSET#&limit=#LIMIT#
+limit=20
+
+urlExtraer=https://ccda-test.crm.us2.oraclecloud.com/crmCommonApi/resources/11.12.0.0/accounts
+cabeceraExtraer={"Authorization": "Basic TFNFR1VSQTpGaWJlcjEyMzQ=", "charset": "UTF-8"}
+
+urlVerificarExistencia=https://fibercorp--tst1.custhelp.com/services/rest/connect/v1.3/queryResults/?query=select%20id%20from%20organizations%20where%20organizations.customFields.CO.CUIL_CUIT=%27#OrganizationDEO_NDocumento_c#%27
+urlInsertar=https://fibercorp--tst1.custhelp.com/services/rest/connect/v1.3/organizations/
+cabeceraInsertar={"Authorization": "Basic Y3VzdG9tZXIucG9ydGFsOkx1Y2FzMTIz", "charset": "UTF-8"}
+
+paaginado=true
+
+iterarSobre=items
+idIteracion=PartyNumber
+
+metodoEjecutor=ejecutorSalesAService

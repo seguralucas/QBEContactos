@@ -1,0 +1,19 @@
+filtros=q=customFields.CO.DNI%20is%20not%20null%20and%20updatedTime%20>=%20%27#FECHA_DESDE#%27and%20updatedTime%20<=%20%27#FECHA_HASTA#%27&offset=#OFFSET#&limit=#LIMIT#
+limit=20
+
+
+urlExtraer=https://fibercorp--tst1.custhelp.com/services/rest/connect/v1.3/contacts/
+cabeceraExtraer={"Authorization": "Basic Y3VzdG9tZXIucG9ydGFsOkx1Y2FzMTIz", "charset": "UTF-8"}
+
+urlVerificarExistencia=https://ccda-test.crm.us2.oraclecloud.com/crmCommonApi/resources/11.12.1.0/contacts?q=PersonDEO_NDocumento_c=#customFields.CO.DNI#
+urlInsertar=https://ccda-test.crm.us2.oraclecloud.com/crmCommonApi/resources/11.12.1.0/contacts
+
+cabeceraInsertar={"Authorization": "Basic TFNFR1VSQTpGaWJlcjEyMzQ="}
+
+paaginado=true
+
+iterarSobre=items
+idIteracion=id
+
+metodoEjecutor=ejecutorServiceASalesContactos
+

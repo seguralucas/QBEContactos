@@ -1,0 +1,20 @@
+https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts
+{
+    "type": "https://qbe--tst1.custhelp.com/services/rest/connect/exceptions/OSC-CREST-00011",
+    "title": "Se ha encontrado sintaxis JSON incorrecta en la solicitud",
+    "status": 400,
+    "detail": "JSON (notación de objetos de JavaScript) es un formato de intercambio de datos ligero, basado en texto e independiente del idioma. Si define mediante IETF RFC 7159, que se encuentra en la siguiente dirección: https://tools. ietf. org/html/rfc7159. La solicitud realizada infringe las reglas de sintaxis de JSON, por lo que la solicitud no se puede leer. Corrija los errores de sintaxis y vuelva a intentar la solicitud.",
+    "instance": "https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts",
+    "o:errorCode": "OSC-CREST-00011"
+}
+##############################################################################################
+https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts
+{
+    "type": "https://qbe--tst1.custhelp.com/services/rest/connect/exceptions/OSC-CREST-00011",
+    "title": "Se ha encontrado sintaxis JSON incorrecta en la solicitud",
+    "status": 400,
+    "detail": "JSON (notación de objetos de JavaScript) es un formato de intercambio de datos ligero, basado en texto e independiente del idioma. Si define mediante IETF RFC 7159, que se encuentra en la siguiente dirección: https://tools. ietf. org/html/rfc7159. La solicitud realizada infringe las reglas de sintaxis de JSON, por lo que la solicitud no se puede leer. Corrija los errores de sintaxis y vuelva a intentar la solicitud.",
+    "instance": "https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts",
+    "o:errorCode": "OSC-CREST-00011"
+}
+##############################################################################################

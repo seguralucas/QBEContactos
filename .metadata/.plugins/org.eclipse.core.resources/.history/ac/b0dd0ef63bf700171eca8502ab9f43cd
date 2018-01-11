@@ -1,0 +1,10 @@
+{ 
+    "emails":[{"address":"#EMAIL_PERSONAL#", "addressType":{"id":0}},{"address":"#EMAIL_LABORAL#", "addressType":{"id":1}},{"address":"#EMAIL_ALTERNATIVO#", "addressType":{"id":2}}],
+    "phones":[{"number":"#TEL_PARTICULAR#","phoneType":{"id":0}},{"number":"#TEL_LABORAL#","phoneType":{"id":1}}],
+
+	    "name": {
+        "first": "#NOMBRE#",
+        "last": "#APELLIDO#"
+    }
+
+}

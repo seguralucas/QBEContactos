@@ -1,0 +1,8 @@
+{
+	"OrganizationName":{
+		"tipo":"cadena"
+	},
+	"OrganizationDEO_NDocumento_c":{
+		"tipo":"cadena"	
+	}
+}

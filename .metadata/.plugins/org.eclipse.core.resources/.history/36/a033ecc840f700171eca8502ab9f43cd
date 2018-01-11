@@ -1,0 +1,12 @@
+pathInformacion=D\:/Exit/Crm.csv
+url=https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts
+cabeceraInsertar={"Authorization": "Basic dXN1YXJpby5pbXBvcnRhZG9yOkx1Y2FzMTIz", "charset": "UTF-8"}
+separadorCSV=;
+usaProxy=NO
+ipProxy=10.152.140.252
+puertoProxy=8080
+
+identificadorAtributo=#
+
+urlVerificarExistencia=https://qbe.custhelp.com/services/rest/connect/v1.3/queryResults/?query=select%20id%20from%20contacts%20where%20contacts.customFields.Qbe.idAIS%20=%20%27#customFields.Qbe.idAIS#%27
+nivelParalelismo=10

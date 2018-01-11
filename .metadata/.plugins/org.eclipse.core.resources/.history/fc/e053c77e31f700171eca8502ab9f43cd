@@ -1,0 +1,3 @@
+metodo=POST
+codigoResponseEsperado=200
+cabecera={"X-HTTP-Method-Override": "PATCH", "Content-Type":"application/vnd.oracle.adf.resourceitem+json"}

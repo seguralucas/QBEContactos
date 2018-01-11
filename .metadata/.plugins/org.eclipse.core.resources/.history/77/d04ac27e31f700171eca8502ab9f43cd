@@ -1,0 +1,11 @@
+{
+    "name": "#OrganizationName#",
+     "customFields": {
+        "CO": {
+            "CUIL_CUIT": "#OrganizationDEO_NDocumento_c#"
+            }
+            }
+}    
+
+
+

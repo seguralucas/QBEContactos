@@ -1,0 +1,35 @@
+{
+	"PersonDEO_NDocumento_c":{
+		"tipo":"entero"
+	},
+		"FirstName":{
+		"tipo":"cadena",		
+	},
+		"LastName":{
+		"tipo":"cadena"
+		
+	},
+	"EmailAddress":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails"
+	},
+		"WorkPhoneNumber":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[1]"
+	},
+	"MobileNumber":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[0]"
+	},
+	"AccountPartyId"{
+			"tipo":"entero",
+			"getIdFromUrl":{
+				"url":"https://fibercorp--tst1.custhelp.com/services/rest/connect/v1.3/queryResults/?query=select%20id%20from%20organizations%20where%20organizations.customFields.CO.CUIL_CUIT=%27#AccountPartyId#%27",
+				"cabecera": "{\"Authorization\": \"Basic Y3VzdG9tZXIucG9ydGFsOkx1Y2FzMTIz\", \"charset\": \"UTF-8\"}",
+				"claseExtractora":"GetExistFieldURLQueryRightNow"
+		},
+				"borrarSiEsNull":"organization"
+		
+	}
+
+}

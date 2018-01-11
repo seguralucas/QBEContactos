@@ -1,0 +1,27 @@
+1515711394243	Delete elements
+1515712257784	Delete elements
+1515712544696	Delete elements
+1515712549395	Delete elements
+1515717504425	Delete element
+1515717532419	Delete element
+1515717547476	Delete element
+1515717761064	Delete elements
+1515717807445	Rename package 'convertidor.jsonAJson'
+1515717959676	Rename package 'convertidos.csvAJson'
+1515717966904	Rename package 'ejecutores'
+1515717975431	Rename package 'fileHandler'
+1515717981895	Rename package 'principal'
+1515717987865	Rename package 'principal.peticiones'
+1515717991969	Rename package 'procesadorJson'
+1515717997169	Rename package 'singletons'
+1515718004234	Rename package 'singletons.entidadesARecuperar'
+1515718019387	Rename package 'util'
+1515718027318	Rename package 'util.json'
+1515718121725	Rename package 'ejecutores'
+1515718140648	Move compilation unit
+1515718142027	Delete element
+1515719774748	Copy compilation unit
+1515719776173	Delete element
+1515727793742	Rename method 'convertirCSVaJSONLineaALineaIncidentes'
+1515693516387	Copy compilation unit
+1515695191076	Rename method 'borrarDeUrl'

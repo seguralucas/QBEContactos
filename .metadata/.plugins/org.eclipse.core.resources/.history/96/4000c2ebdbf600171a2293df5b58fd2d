@@ -1,0 +1,53 @@
+{
+	"NOMBRE":{
+		"tipo":"cadena"
+	},
+	"APELLIDO":{
+		"tipo":"cadena"
+	},
+	"CLIENSEC":{
+		"tipo":"cadena"
+	},
+	"TIPOORGANIZACION":{
+		"tipo":"cadena",
+		"ponerEnNull":"contactType"
+	},
+		"ID_TIPO_DOCUMENTO":{
+		"tipo":"cadena",
+		"ponerEnNull":"contactType"
+	},
+		"TIPO_DOCUMENTO":{
+		"tipo":"cadena",
+		"ponerEnNull":"contactType"
+	},
+		"NRO_DOCUMENTO":{
+		"tipo":"cadena",
+		"ponerEnNull":"contactType"
+	},
+	"SEXO":{
+		"tipo":"cadena",
+		"ponerEnNull":"contactType"
+	},
+	"EMAIL_PERSONAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[0]"
+	},
+		"EMAIL_LABORAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[1]"
+	},
+		"EMAIL_ALTERNATIVO":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[2]"
+	},
+	"TEL_PARTICULAR":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[0]"
+	},
+	"TEL_LABORAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[1]"
+	}
+	
+	
+}

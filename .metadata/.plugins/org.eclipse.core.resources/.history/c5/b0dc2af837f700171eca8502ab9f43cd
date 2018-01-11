@@ -1,0 +1,8 @@
+{
+"NOMBRE":{
+"tipo":"cadena"
+},
+"APELLIDO":{
+"tipo":"cadena"
+}
+}

@@ -1,0 +1,39 @@
+package biactiva.services.ejecutores;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import biactiva.services.convertidos.csvAJson.AbstractJsonRestEstructura;
+import biactiva.services.fileHandler.ConvertidosJSONCSV;
+import biactiva.services.singletons.RecEntAct;
+
+
+public class ParalelizadorDistintosFicheros {
+	public static int y=0;
+	public static int z=0;
+	
+	public void insertar() throws InterruptedException, IOException{
+
+			        	try {
+			        		File f= new File(RecEntAct.getInstance().getCep().getPathInformacion());
+				        	ConvertidosJSONCSV csvThread= new ConvertidosJSONCSV();
+			        		AbstractJsonRestEstructura jsonEst=null;
+			        		while(!csvThread.isFin()){
+			        			jsonEst = csvThread.convertirCSVaJSONLineaALineaIncidentes(f);
+			        			System.out.println(jsonEst);
+			        			System.out.println("***");
+			  
+			        		}
+			        		}
+			        	catch (Exception e) {
+							e.printStackTrace();
+						}
+			        }
+		}
+

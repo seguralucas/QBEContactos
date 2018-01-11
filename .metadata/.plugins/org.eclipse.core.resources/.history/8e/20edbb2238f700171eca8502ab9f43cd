@@ -1,0 +1,15 @@
+{
+"NOMBRE":{
+"tipo":"cadena"
+},
+"APELLIDO":{
+"tipo":"cadena"
+},
+
+	"EMAIL_PERSONAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[1]"
+	}
+
+
+}

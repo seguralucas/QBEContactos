@@ -1,0 +1,8 @@
+{
+	"name":{
+		"tipo":"cadena"
+	},
+	"customFields.CO.CUIL_CUIT":{
+		"tipo":"cadena"	
+	}
+}

@@ -1,0 +1,71 @@
+{
+"Adicionales_en_Uso":{
+"tipo":"entero"
+},
+"SAP_ID ID":{
+"tipo":"cadena",
+"completar10Ceros":true
+},
+"_ WCC ID":{
+"tipo":"cadena"
+},
+"_ Calle":{
+"tipo":"cadena"
+},
+"_ Email":{
+"tipo":"cadena",
+"borrarSiEsNull":"emails[0]"
+},
+"_ Estado Civil":{
+"tipo":"cadena"
+},
+"_ Estado":{
+"tipo":"cadena"
+},
+"_ Fecha Nacimiento":{
+"tipo":"fecha"
+},
+"_ Latitud":{
+"tipo":"cadena"
+},
+"_ Localidad":{
+"tipo":"cadena"
+},
+"_ Zona":{
+"tipo":"cadena"
+},
+"_ Longitud":{
+"tipo":"cadena"
+},
+"_ Nacionalidad":{
+"tipo":"cadena"
+},
+"_ Nro Documento":{
+"tipo":"entero"
+},
+"_ Numero":{
+"tipo":"cadena"
+},
+"_ Partido":{
+"tipo":"cadena"
+},
+"_ Sexo":{
+"tipo":"cadena"
+},
+"_ Telefono":{
+"tipo":"cadena",
+"borrarSiEsNull":"phones"
+},
+"_ Tipo Doc":{
+"tipo":"cadena"
+},
+"Socio_ Categoria":{
+"tipo":"cadena"
+},
+"_ Nombre":{
+"tipo":"cadena"
+},
+"_ Ape/Rzn Social":{
+"tipo":"cadena"
+}
+}

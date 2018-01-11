@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="biactiva.services.convertidos.csvAJson.AbstractJsonRestEstructura"/>
+<fullyQualifiedTypeName name="biactiva.services.fileHandler.CSVHandler"/>
+<fullyQualifiedTypeName name="biactiva.services.convertidos.csvAJson.JSONFiber"/>
+<fullyQualifiedTypeName name="biactiva.services.singletons.RecEntAct"/>
+<fullyQualifiedTypeName name="biactiva.services.fileHandler.ConvertidosJSONCSV"/>
+<fullyQualifiedTypeName name="biactiva.services.ejecutores.ParalelizadorDistintosFicheros"/>
+<fullyQualifiedTypeName name="biactiva.services.singletons.ConfiguracionEntidadParticular"/>
+<fullyQualifiedTypeName name="biactiva.services.principal.peticiones.GetExistFieldURLQueryRightNow"/>
+<fullyQualifiedTypeName name="biactiva.services.principal.peticiones.UpdateGenericoRightNow"/>
+<fullyQualifiedTypeName name="biactiva.services.principal.peticiones.EPeticiones"/>
+<fullyQualifiedTypeName name="biactiva.services.principal.peticiones.PostGenerico"/>
+<fullyQualifiedTypeName name="biactiva.services.principal.peticiones.AbstractHTTP"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,33 @@
+{
+"NOMBRE":{
+"tipo":"cadena"
+},
+"APELLIDO":{
+"tipo":"cadena"
+},
+
+	"EMAIL_PERSONAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[0]"
+	},
+		"EMAIL_LABORAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[1]"
+	},
+		"EMAIL_ALTERNATIVO":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"emails[2]"
+	},
+	"TEL_PARTICULAR":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[0]"
+	},
+	"TEL_LABORAL":{
+		"tipo":"cadena",
+		"borrarSiEsNull":"phones[1]"
+	}
+	
+	
+
+
+}
