@@ -39,7 +39,7 @@ public class ParalelizadorDistintosFicheros {
 				        	ConvertidosJSONCSV csvThread= new ConvertidosJSONCSV();
 			        		AbstractJsonRestEstructura jsonEst=null;
 			        		while(!csvThread.isFin()){
-			        			jsonEst = csvThread.convertirCSVaJSONLineaALinea(destination);
+			        			jsonEst = csvThread.convertirCSVaJSONLineaALinea(f);
 			        			if(jsonEst!=null){
 				        			String urlVerificar=r.getUrlVerificarExistencia(jsonEst);
 			        				AbstractHTTP peticionARealizar;

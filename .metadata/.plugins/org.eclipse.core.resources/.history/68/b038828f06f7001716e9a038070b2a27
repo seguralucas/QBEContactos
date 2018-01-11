@@ -63,8 +63,6 @@ public abstract class AbstractJsonRestEstructura extends JSONObject{
 		RecuperadorPropierdadesJson formato= RecEntAct.getInstance().getCep().getRecuperadorPropiedadesJson();
 		if(valorAlterado!=null && formato.isGetIdFromUrl(cabecera))
 			valorAlterado=getIdFromUrl(valorAlterado,cabecera);
-		if(valorAlterado == null && formato.isBorrarDeUrl(cabecera))
-			añadirAListaUrlEliminar(cabecera);
 		if(valorAlterado==null && formato.isBorrarSiEsNull(cabecera))
 			borrarKey(cabecera);
 		else if(valorAlterado==null && formato.isPonerEnNull(cabecera))

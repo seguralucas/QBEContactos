@@ -69,7 +69,7 @@
 	"EMAIL_PERSONAL":{
 		"tipo":"cadena",
 		"borrarSiEsNull":"emails[0]",
-		"borrarDeUrl":"https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/#id#/emails/0"
+		"borrarDeUrl":"https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/#id#/emails/1"
 	
 	},
 		"EMAIL_LABORAL":{
@@ -92,7 +92,7 @@
 	"TEL_LABORAL":{
 		"tipo":"cadena",
 		"borrarSiEsNull":"phones[1]",
-		"borrarDeUrl":"https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/#id#/phones/1"		
+		"borrarDeUrl":"https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/#id#/phones/0"		
 	}
 	
 }

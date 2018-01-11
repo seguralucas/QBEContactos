@@ -11,7 +11,6 @@ import java.util.concurrent.Executors;
 
 import biactiva.services.convertidos.csvAJson.AbstractJsonRestEstructura;
 import biactiva.services.fileHandler.ConvertidosJSONCSV;
-import biactiva.services.fileHandler.DirectorioManager;
 import biactiva.services.principal.peticiones.AbstractHTTP;
 import biactiva.services.principal.peticiones.EPeticiones;
 import biactiva.services.principal.peticiones.EliminarGenericoSinLog;
@@ -31,15 +30,10 @@ public class ParalelizadorDistintosFicheros {
 			        	try {
 			        		ConfiguracionEntidadParticular r= RecEntAct.getInstance().getCep();
 			        		File f= new File(r.getPathInformacion());
-			        		File destination =DirectorioManager.getDirectorioFechaYHoraInicio("procesado.csv");
-
-			        		if (!destination.exists()) {
-			        		    f.renameTo(destination);
-			        		}
 				        	ConvertidosJSONCSV csvThread= new ConvertidosJSONCSV();
 			        		AbstractJsonRestEstructura jsonEst=null;
 			        		while(!csvThread.isFin()){
-			        			jsonEst = csvThread.convertirCSVaJSONLineaALinea(destination);
+			        			jsonEst = csvThread.convertirCSVaJSONLineaALinea(f);
 			        			if(jsonEst!=null){
 				        			String urlVerificar=r.getUrlVerificarExistencia(jsonEst);
 			        				AbstractHTTP peticionARealizar;
