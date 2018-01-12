@@ -18,7 +18,7 @@ public class RecuperadorPropierdadesJson {
 	private JSONObject jsonPropiedades;
 	private HashMap<String, JSONObject> mapCabeceraJson;
 	public static final String PROPIEDAD_TIPO="tipo";
-	public static final String PROPIEDAD_TRIM="trim";
+	public static final String PROPIEDAD_TRIM="TRIM";
 	public static final String PROPIEDAD_BORRAR_SI_ES_NULL="borrarSiEsNull";
 	public static final String PROPIEDAD_BORRAR_DE_URL="borrarDeUrl";
 	public static final String PROPIEDAD_PONER_EN_NULL="ponerEnNull";

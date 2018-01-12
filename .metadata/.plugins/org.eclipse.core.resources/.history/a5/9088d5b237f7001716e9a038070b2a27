@@ -57,6 +57,7 @@ public class ParalelizadorDistintosFicheros {
 				        						EliminarGenericoSinLog del = new EliminarGenericoSinLog(EPeticiones.DELETE, url, r.getCabeceraInsertar());
 				        						del.realizarPeticion();
 				        					}
+	
 				        					System.out.println("Actualizando: "+idService);
 				        					peticionARealizar = new UpdateGenericoRightNow(EPeticiones.UPDATE, r.getUrlInsertar(), r.getCabeceraInsertar());
 				        				}

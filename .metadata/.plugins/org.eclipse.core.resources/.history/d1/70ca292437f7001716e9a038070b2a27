@@ -18,7 +18,6 @@ public class RecuperadorPropierdadesJson {
 	private JSONObject jsonPropiedades;
 	private HashMap<String, JSONObject> mapCabeceraJson;
 	public static final String PROPIEDAD_TIPO="tipo";
-	public static final String PROPIEDAD_TRIM="trim";
 	public static final String PROPIEDAD_BORRAR_SI_ES_NULL="borrarSiEsNull";
 	public static final String PROPIEDAD_BORRAR_DE_URL="borrarDeUrl";
 	public static final String PROPIEDAD_PONER_EN_NULL="ponerEnNull";
@@ -185,14 +184,6 @@ public class RecuperadorPropierdadesJson {
 		Object aux=j==null?null:j.get(PROPIEDAD_FORMATEAR_FECHA_QBE);
 		return aux!=null;
 	}
-	
-	public boolean isTrim(String key){
-		JSONObject j= this.getPropiedades(key);
-		Object aux=j==null?null:j.get(PROPIEDAD_TRIM);
-		return aux!=null;
-	}
-	
-	
 	
 	public JSONObject getJsonPropiedades() {
 		return jsonPropiedades;

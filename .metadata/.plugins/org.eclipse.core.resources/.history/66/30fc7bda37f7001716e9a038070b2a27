@@ -341,11 +341,7 @@ public abstract class AbstractJsonRestEstructura extends JSONObject{
 			return null;
 		return valor;
 	}
-	protected String trim(String cabecera, String valor){
-		if(!RecEntAct.getInstance().getCep().getRecuperadorPropiedadesJson().isTrim(cabecera))
-			return valor;
-		return valor.trim();
-	}
+	
 	protected String borrarCaracteresNoNumericos(String cabecera, String valor){
 		if(RecEntAct.getInstance().getCep().getRecuperadorPropiedadesJson().isBorrarCarNoNumericos(cabecera))
 			valor=valor.replaceAll("[^0-9]", "");

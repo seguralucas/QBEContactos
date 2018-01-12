@@ -6,8 +6,7 @@
 		"tipo":"cadena"
 	},
 	"CLIENSEC":{
-		"tipo":"cadena",
-		"trim":true
+		"tipo":"cadena"
 	},
 	"TIPOORGANIZACION":{
 		"tipo":"cadena",
