@@ -182,7 +182,7 @@ public abstract class AbstractHTTP {
         out.println(ConstantesGenerales.SEPARADOR_ERROR_PETICION);
         out.close();
         if(json.getLine()!=null)
-        	CSVHandler.getInstance().escribirCSV(ConstantesGenerales.reemplazarArrobas(ConstantesGenerales.PATH_ERROR_HTTP_CSV, this.peticion.getAccion(),String.valueOf(responseCode)),json.getLine());            
+        	CSVHandler.getInstance().escribirCSV(ConstantesGenerales.reemplazarArrobas("error_@0_servidor_codigo_@1.csv", this.peticion.getAccion(),String.valueOf(responseCode)),json.getLine());            
         else{
         	String nombre=(ConstantesGenerales.reemplazarArrobas(ConstantesGenerales.PATH_ERROR_HTTP_JSONS, this.peticion.getAccion(),String.valueOf(responseCode)));
     	    path = DirectorioManager.getDirectorioFechaYHoraInicio(nombre).getAbsolutePath();

@@ -29,6 +29,7 @@ public class Principal {
 	
 	public static void main(String[] args) throws Exception {
     	ApuntadorDeEntidad ap=ApuntadorDeEntidad.getInstance();
+    	System.out.println("ddd");
     	if(ap==null)
     		return;
     	while(ap.siguienteEntidad()){

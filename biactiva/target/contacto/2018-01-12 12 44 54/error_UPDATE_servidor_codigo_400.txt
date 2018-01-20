@@ -1,0 +1,36 @@
+{"emails":[{"address":"aa@bb",
+"addressType":{"id":0}}],
+"customFields":{"Qbe":{"IdTipoDocumento":"01",
+"idAIS":"6042562",
+"CodigoPostal":"5711",
+"Departamento":"    ",
+"Localidad":"QUINES",
+"Domicilio":"285  ",
+"Segmentacion":"Sin Asignar",
+"TipoDocumento":"DNI",
+"Piso":"    ",
+"Nacimiento":"1972-10-29",
+"FechaAlta":"2017-12-27",
+"Genero":"F",
+"Conflictivo":false,
+"Calle":"GRANADERO FIGUEROA",
+"Dni":"    22770358",
+"Provincia":"SAN LUIS"}},
+"name":{"last":"TOBARES ",
+"first":"MARIA NICOLASA"},
+"phones":[{"number":"0266154889855",
+"phoneType":{"id":0}}],
+"contactType":{"lookupName":"PERSONA FISICA"},
+"login":"6042562"}
+**********************************************************************************************
+https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/8122225
+##############################################################################################
+{
+    "type": "https://qbe--tst1.custhelp.com/services/rest/connect/exceptions/OSC-CREST-00006",
+    "title": "Fallo al intentar escribir en un recurso",
+    "status": 400,
+    "detail": "A problem setting a property was encountered: Pattern does not match: value 'aa@bb' does not match pattern '^((([-_!#$%&'*+/=?^~`{|}\\w]+(\\.[.]?[-_!#$%&'*+/=?^~`{|}\\w]+)*)|(\"[^\"]+\"))@[0-9A-Za-z]+([\\-]+[0-9A-Za-z]+)*(\\.[0-9A-Za-z]+([\\-]+[0-9A-Za-z]+)*)+[; ]*)$'; Contact.Emails[].Address",
+    "instance": "https://qbe--tst1.custhelp.com/services/rest/connect/v1.3/contacts/8122225",
+    "o:errorCode": "OSC-CREST-00006"
+}
+##############################################################################################

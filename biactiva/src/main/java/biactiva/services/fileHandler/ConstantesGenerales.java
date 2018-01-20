@@ -24,9 +24,10 @@ public class ConstantesGenerales {
 	 public static String PATH_ERROR_HTTP="error_@0_servidor_codigo_@1";
 	 public static String PATH_ERROR_HTTP_JSONS="error_@0_servidor_codigo_@1.jsons";
 	 public static String PATH_ERROR_HTTP_TXT=PATH_ERROR_HTTP+".txt";
-	 public static String PATH_ERROR_HTTP_CSV=PATH_ERROR_HTTP+".txt";
+	 public static String PATH_ERROR_HTTP_CSV=PATH_ERROR_HTTP+".csv";
 	 
 	 
+	
 	 
 	 public static String reemplazarArrobas(String constante, String... valores){
 		 for(int i=0;i<valores.length;i++){
